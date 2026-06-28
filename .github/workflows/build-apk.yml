@@ -1,5 +1,23 @@
-- name: Install Gradle
-  uses: gradle/actions/setup-gradle@v3
+name: Build APK
 
-- name: Build Debug APK
-  run: gradle assembleDebug
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - name: Install Gradle
+        uses: gradle/actions/setup-gradle@v3
+
+      - name: Build Debug APK
+        run: gradle assembleDebug
