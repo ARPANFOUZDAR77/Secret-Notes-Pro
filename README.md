@@ -2,7 +2,7 @@ Hello Everyone 👋
 
 First of all, I want to say that this app was created with the support of AI.
 
-Many people think that building apps with AI is just pressing a button and getting a perfect result. In reality, that's far from the truth. In 2026, creating a real project with AI is not a joke—especially when you're a 16-year-old developer like me, Arpan (AKA Devil).
+Many people think that building apps with AI is just pressing a button and getting a perfect result. In reality, that's far from the truth. In 2026, creating a real project with AI without spending any money is not a joke—especially when you're a 16-year-old developer like me, Arpan (AKA Devil).
 
 AI can generate code, but it cannot read your mind. To build something useful, you need to spend hours testing, debugging, researching, improving prompts, and communicating with AI effectively. Behind every AI-generated project, there is still a human making decisions, solving problems, and guiding the process.
 
