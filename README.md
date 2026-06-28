@@ -1,16 +1,21 @@
-Hello Everyone 👋
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-First of all, I want to say that this app was created with the support of AI.
+# Run and deploy your AI Studio app
 
-Many people think that building apps with AI is just pressing a button and getting a perfect result. In reality, that's far from the truth. In 2026, creating a real project with AI is not a joke—especially when you're a 16-year-old developer like me, Arpan (AKA Devil).
+This contains everything you need to run your app locally.
 
-AI can generate code, but it cannot read your mind. To build something useful, you need to spend hours testing, debugging, researching, improving prompts, and communicating with AI effectively. Behind every AI-generated project, there is still a human making decisions, solving problems, and guiding the process.
+View your app in AI Studio: https://ai.studio/apps/37976406-55e9-4650-94c3-b745e9cbc3af
 
-Working on projects like this has taught me something valuable: AI is a tool, not a replacement for learning. Through this journey, I improved my prompt-writing skills, problem-solving abilities, and understanding of how to work with AI efficiently. These skills will become increasingly important in a future where AI handles much of the coding work.
+## Run Locally
 
-At the same time, learning programming languages is still essential. If you don't understand code, you can't properly analyze what AI creates, identify mistakes, improve the results, or stay in control of the project. Instead of controlling the AI, you end up being controlled by it.
+**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
 
-This project represents more than just an app. It represents curiosity, learning, persistence, and the belief that age doesn't limit what you can build. Whether you write every line yourself or work alongside AI, what truly matters is understanding, improving, and creating something meaningful.
 
-Thank you for checking out this project. I hope you find it useful, and maybe it inspires you to build something of your own.
-
+1. Open Android Studio
+2. Select **Open** and choose the directory containing this project
+3. Allow Android Studio to fix any incompatibilities as it imports the project.
+4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
+5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
+6. Run the app on an emulator or physical device
