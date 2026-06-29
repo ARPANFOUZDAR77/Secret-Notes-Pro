@@ -13,3 +13,6 @@ At the same time, learning programming languages is still essential. If you don'
 This project represents more than just an app. It represents curiosity, learning, persistence, and the belief that age doesn't limit what you can build. Whether you write every line yourself or work alongside AI, what truly matters is understanding, improving, and creating something meaningful.
 
 Thank you for checking out this project. I hope you find it useful, and maybe it inspires you to build something of your own.
+## Download APK
+
+APK: https://github.com/ARPANFOUZDAR77/Secret-Notes-Pro/blob/main/Secret%20Notes%20Pro.apk
