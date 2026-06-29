@@ -9,6 +9,7 @@ plugins {
 }
 
 android {
+    namespace = "com.example"
     compileSdk = 36
 
   defaultConfig {
